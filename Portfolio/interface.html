@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+
+        body {
+            background-color: #343656;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        h1 {
+            margin: 0 auto;
+            color: #ffffff;
+            padding-left: 50px;
+            padding-top: 25px;
+        }
+
+        h3 {
+            margin: 0 auto;
+            color: #ef4b51;
+            padding-left: 100px;
+            font-size: 35px;
+        }
+
+        p {
+            color: white;
+            padding-left: 50px;
+            font-size: 15px;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 1200px;
+            padding-top: 150px;
+            padding-bottom: 200px;
+            font-size: 25px;
+            
+        }
+
+        nav {
+            background-color: #2e314e;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            float: right;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            color: rgb(255, 255, 255);
+            
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        .card {
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .card h2 {
+            padding: 10px;
+            margin: 0;
+            background-color: #414462;
+            color: #ffffff;
+        }
+
+        .card p {
+            padding: 15px;
+            margin: 0;
+            font-size: 14px;
+            background-color: #414462;
+            color: #ffffff;
+        }
+
+        .card img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+        }
+
+      @media (max-width: 768px) {
+        .card-grid {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+
+      @media (max-width: 480px) {
+        .card-grid {
+            grid-template-columns: 1fr;
+          }
+        }
+
+        button {
+            background-color: #ef4b51;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            cursor: pointer;
+            font-size: 14px;
+            margin-left: 50px;
+        }
+
+        button:hover {
+            background-color: #ee6c71;
+        }
+
+        
+    </style>
+
+
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <nav>
+        <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#p">Home</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1> Hi, I'm Rachelle.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br> 
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br> 
+            nisi ut aliquip ex ea commodo consequat. </p>
+        <button> Collab with me </button>
+    </div>
+
+    <div>
+        <h3> Graphic Designs </h3> 
+        <p></p>
+    </div>
+
+    <div class="card-grid">
+        
+        <div class="card">
+          <img src="#">
+          <h2>Graphic Design 1</h2>
+          <p>Description</p>
+        </div>
+        <div class="card">
+          <img src="#">
+          <h2>Graphic Design 1</h2>
+          <p>Description</p>
+        </div>
+        <div class="card">
+          <img src="#">
+          <h2>Graphic Design 1</h2>
+          <p>Description</p>
+        </div>
+        <div class="card">
+          <img src="#">
+          <h2>Graphic Design 1</h2>
+          <p>Description</p>
+        </div>
+        <div class="card">
+          <img src="#">
+          <h2>Graphic Design 1</h2>
+          <p>Description</p>
+        </div>
+        <div class="card">
+          <img src="#">
+          <h2>Graphic Design 1</h2>
+          <p>Description</p>
+        </div>
+      </div>
+
+   
+  </body>
+</html>
